@@ -4,10 +4,10 @@ and served to your network. It registers itself using zeroconf, so it should be 
 
 ## Connecting
 * An android application for connecting to the server is available at http://github.com/jgilje/pideo
-* Use vlc - cvlc tcp://server:12345
+* Use vlc - `cvlc tcp://server:12345`
 
 ## Binaries
 Prebuilt binaries for linux/arm available at http://jgilje.net/pideo/
 
 ## Dependencies
-sudo apt-get install gstreamer1.0-tools gstreamer1.0-plugins-bad
+`sudo apt-get install gstreamer1.0-tools gstreamer1.0-plugins-bad`
