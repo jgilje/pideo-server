@@ -67,7 +67,7 @@ func registerAvahiService(name, serviceType string, serverPort uint16, txt []str
 func registerViaBuiltin(hostname, name, serviceType string, serverPort uint16, txt []string) {
 	addrs, err := net.LookupIP(hostname)
 	if err != nil {
-		log.Fatalln("Could not determine host IP addresses for %s", hostname)
+		log.Fatalln("Could not determine host IP addresses for", hostname)
 	}
 
 	var ip4 string
