@@ -1,0 +1,11 @@
+[Unit]
+Description=Pideo Server
+After=rc-local.service
+
+[Service]
+ExecStart=/usr/local/bin/pideo-server
+Restart=always
+RestartSec=1min
+
+[Install]
+WantedBy=multi-user.target
